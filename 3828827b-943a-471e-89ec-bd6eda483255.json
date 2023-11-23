@@ -1,0 +1,1707 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": false,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.topdownrpg",
+    "pixelsRounding": false,
+    "projectUuid": "20013e3c-6a36-4d23-9b72-c98f439b5966",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "top-down-rpg",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Pizza Run",
+    "description": "A monster tamer style top down rpg game example. Including top down movement, scrolling text during chat, camera controls, and a simple battle sequence.",
+    "author": "",
+    "windowWidth": 960,
+    "windowHeight": 540,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": "",
+      "liluo-thumbnail": "thumbnail.png"
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [
+      "rpg"
+    ],
+    "playableDevices": [
+      "keyboard"
+    ],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACharDown9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharDown1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACharDown10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharDown2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACharDown11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharDown3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACharDown12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharDown4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACgarRight1.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ACgarRight1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACgarRight2.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ACgarRight2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACgarRight3.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ACgarRight3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACgarRight9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACgarRight4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACharLeft1.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ACharLeft1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACharLeft2.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ACharLeft2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACharLeft3.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ACharLeft3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACharLeft9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharLeft4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACharUp1.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ACharUp1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACharUp2.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ACharUp2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACharUp3.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ACharUp3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACharUp9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharUp4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dock3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dock1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tree5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tree1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tree6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tree2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bush3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bush1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/House5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "House1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/House6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "House2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WaterCorner5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WaterCorner.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grass3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grass1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WaterEdgeRight3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WaterEdgeRight.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WaterEdgeUp3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WaterEdgeUp.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Water3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Water1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RoadEdge3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RoadEdge1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemy_Spawn_Location3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Enemy_Spawn_Location.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/8BitOperatorPlus8Regular_Edited3.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "8BitOperatorPlus8Regular_Edited.fnt",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/8BitOperatorPlus8Regular_Edited3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8BitOperatorPlus8Regular_Edited.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Border5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Border.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Border6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Border2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack3.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Jump 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.1,\\\"sustainPunch\\\":50,\\\"decay\\\":0.35000000000000003,\\\"tremoloDepth\\\":19,\\\"tremoloFrequency\\\":27,\\\"frequency\\\":10000,\\\"frequencySweep\\\":-4800,\\\"frequencyDeltaSweep\\\":-4100,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"brownnoise\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"Attack\"}}",
+        "name": "Attack.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Talk3.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Jump 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0.03461516912647311,\\\"sustain\\\":0.06,\\\"sustainPunch\\\":0,\\\"decay\\\":0.2,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":399.07212207604067,\\\"frequencySweep\\\":9999.999999999698,\\\"frequencyDeltaSweep\\\":0.8611028349862437,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"square\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":370,\\\"vibratoFrequency\\\":572,\\\"squareDuty\\\":10,\\\"squareDutySweep\\\":-30,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"Talk\"}}",
+        "name": "Talk.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/HoverSound3.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Jump 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0.011876134915122183,\\\"sustain\\\":0.01,\\\"sustainPunch\\\":0,\\\"decay\\\":0.02,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":1012.4426242250636,\\\"frequencySweep\\\":9999.999999999698,\\\"frequencyDeltaSweep\\\":995.5111583241919,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.71,\\\"waveform\\\":\\\"triangle\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":70,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"HoverSound\"}}",
+        "name": "HoverSound.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Road3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WaterCorner6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WaterCorner2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Creature_Player3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Creature_Player.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Creature_Enemy.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Creature_Enemy.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/thumbnail3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "thumbnail.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Shaded dark joystick border3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shaded dark joystick border.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/dd6e3c2d11ba02bd5a052cd47908e851b656d0fb492b52006afa4843e597d0cc_Shaded dark joystick border.png",
+          "name": "Shaded dark joystick border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Shaded dark joystick thumb3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shaded dark joystick thumb.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/13d8225be69d0f11b6de965cac0d840e7e63e2510a638af89ae42b052caa2460_Shaded dark joystick thumb.png",
+          "name": "Shaded dark joystick thumb.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Target round button3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Target round button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Shaded Dark/abb64f9b109c792191a2f50aee5fb4703bdf2392d821e771303ee07dfeb85166_Target round button.png",
+          "name": "Target round button.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Bar Red Fill Bar3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Bar Red Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/212e9679eaae4753beaa5d595d7c80ea66df3235485c6a3963e88b0d936a1798_Flat Bar Red Fill Bar.png",
+          "name": "Flat Bar Red Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Bar White Border3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Bar White Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/c090d31cafed0c8ef7bb4d5af75a7dbf7149bcc03a7d5d63ae997d59100e362e_Flat Bar White Border.png",
+          "name": "Flat Bar White Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/e301b1a9f3168f14a63f647af4857c48deb788d2499ce724eeccdf8d105b88ec_Generic Character 3_Down_2.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "e301b1a9f3168f14a63f647af4857c48deb788d2499ce724eeccdf8d105b88ec_Generic Character 3_Down_2.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/e301b1a9f3168f14a63f647af4857c48deb788d2499ce724eeccdf8d105b88ec_Generic Character 3_Down_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0f612eed16c7647388f28774e5a3942f10b728e2b81fd173e327957f4efe9ec4_Generic Character 2_Down_1.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0f612eed16c7647388f28774e5a3942f10b728e2b81fd173e327957f4efe9ec4_Generic Character 2_Down_1.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/0f612eed16c7647388f28774e5a3942f10b728e2b81fd173e327957f4efe9ec4_Generic Character 2_Down_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9a5a326c20acc7fd219461854c91e0ff4d31ec6792036731b759db9c97322eca_Generic Character 2_Down_2.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "9a5a326c20acc7fd219461854c91e0ff4d31ec6792036731b759db9c97322eca_Generic Character 2_Down_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/9a5a326c20acc7fd219461854c91e0ff4d31ec6792036731b759db9c97322eca_Generic Character 2_Down_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/e28e7569c725b3887c79d4788da13c34819756b201c26fa62d80c8c930cf5936_Generic Character 2_Down_3.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "e28e7569c725b3887c79d4788da13c34819756b201c26fa62d80c8c930cf5936_Generic Character 2_Down_3.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/e28e7569c725b3887c79d4788da13c34819756b201c26fa62d80c8c930cf5936_Generic Character 2_Down_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 2_Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "047f70975cc74b1a5bb07782246f200ec3c38370454198421e810927d91c013b_Generic Character 2_Right_1.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/047f70975cc74b1a5bb07782246f200ec3c38370454198421e810927d91c013b_Generic Character 2_Right_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 2_Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "38ec5dcc8784e85c3e2bf029b593001a9af7059594a931c394a4114fe896eb64_Generic Character 2_Right_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/38ec5dcc8784e85c3e2bf029b593001a9af7059594a931c394a4114fe896eb64_Generic Character 2_Right_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 2_Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9cffad727e0b7955ef90b15b85435e92918b6cdcb295c1bc515e3c9080eb513e_Generic Character 2_Right_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/9cffad727e0b7955ef90b15b85435e92918b6cdcb295c1bc515e3c9080eb513e_Generic Character 2_Right_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 2_Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "f31eead3f33182dda5d39073d6457a439f1ef5f65042a247326bcf8bd894d22e_Generic Character 2_Left_1.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/f31eead3f33182dda5d39073d6457a439f1ef5f65042a247326bcf8bd894d22e_Generic Character 2_Left_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 2_Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "d25a199b35d8f485332bb970f8668bc8a0f0b1a82396253f995aad937a7ffc4b_Generic Character 2_Left_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/d25a199b35d8f485332bb970f8668bc8a0f0b1a82396253f995aad937a7ffc4b_Generic Character 2_Left_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 2_Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "e118e49f540892f3fc24a3998687fcecf59b50f7539633b301b1fbbd7053fbe0_Generic Character 2_Left_3.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/e118e49f540892f3fc24a3998687fcecf59b50f7539633b301b1fbbd7053fbe0_Generic Character 2_Left_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 2_Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "f3c1eb0a90433a08984745e4e53c0bee850699c248ba12e21b697c33472db29c_Generic Character 2_Up_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/f3c1eb0a90433a08984745e4e53c0bee850699c248ba12e21b697c33472db29c_Generic Character 2_Up_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 2_Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "857786b04134793bba7cb6cc40475d955918a9ac24240da57cbf854609b0988e_Generic Character 2_Up_2.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/857786b04134793bba7cb6cc40475d955918a9ac24240da57cbf854609b0988e_Generic Character 2_Up_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 2_Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "98b7dd01c3af26f070916fa07d946761b4447ff4d5101d4a814110566d749f71_Generic Character 2_Up_3.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/98b7dd01c3af26f070916fa07d946761b4447ff4d5101d4a814110566d749f71_Generic Character 2_Up_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/e8655aabbac41f995dc37ac345d69a302e5e24d565bef155588dcb04e5c94df5_Bard 6_Down_1.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "e8655aabbac41f995dc37ac345d69a302e5e24d565bef155588dcb04e5c94df5_Bard 6_Down_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Bards/e8655aabbac41f995dc37ac345d69a302e5e24d565bef155588dcb04e5c94df5_Bard 6_Down_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bard 2_Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "78193669452c344dd915279f9e93693d9f0f6d0303d40dcbc29a07389c6c5d61_Bard 2_Down_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Bards/78193669452c344dd915279f9e93693d9f0f6d0303d40dcbc29a07389c6c5d61_Bard 2_Down_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Licking 1_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "d4b258f268168d0eccd047bed57d3561929cecce17fcaf5f90932740e1422671_Cat 3_Licking 1_1.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/d4b258f268168d0eccd047bed57d3561929cecce17fcaf5f90932740e1422671_Cat 3_Licking 1_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/8a2774808b1cd4b2b8c9677ed5a269c2d3d2626cff2a5b52245f5b08ae4e816b_Cat 3_Idle_1.png",
+          "name": "Cat 3_Idle_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Idle_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Idle_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/e9db9cb77a1c2619014e4a9146dd0e0e26ea690ccaeea9cafc89bfd72b6b3a5c_Cat 3_Idle_10.png",
+          "name": "Cat 3_Idle_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/4fae8cc81329f5f5e9c997a85e0003dc9ea8d043bf832cd8f435b1f51d76ab24_Cat 3_Idle_2.png",
+          "name": "Cat 3_Idle_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/ae4d27f092ef78b137f5f97d3e071fd71dbce671bee3c6dcf1ba9fd60bd764dc_Cat 3_Idle_3.png",
+          "name": "Cat 3_Idle_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/eab5e349db9b6e2d8e81a65ea3acbc8b6e0492c3855b7ebb4d1b3fb770ef0170_Cat 3_Idle_4.png",
+          "name": "Cat 3_Idle_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Idle_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/d13c627df16c13ca2f8a61c9d39a7db673ef3740dd76c674ee760e9cde4e6366_Cat 3_Idle_5.png",
+          "name": "Cat 3_Idle_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Idle_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/d13c627df16c13ca2f8a61c9d39a7db673ef3740dd76c674ee760e9cde4e6366_Cat 3_Idle_6.png",
+          "name": "Cat 3_Idle_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Idle_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/31491ad9959548b96ddf8a7964df438ff41b2ae216810e9a324250ddab524cbe_Cat 3_Idle_7.png",
+          "name": "Cat 3_Idle_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Idle_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Idle_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/ef5457c4e2e5591a25721c2528ae2668243b79d4a58072957877f0667f456607_Cat 3_Idle_8.png",
+          "name": "Cat 3_Idle_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Idle_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Idle_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/3615a7b14ae9577f8479c91dd30a68b4e999bdeb903df701431a1b0341807455_Cat 3_Idle_9.png",
+          "name": "Cat 3_Idle_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Itch_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Itch_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/ee561dd98d46e38a49c5437c592cc610f0dc415cd82f5aa3dd72c5a459daec41_Cat 3_Itch_1.png",
+          "name": "Cat 3_Itch_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Itch_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Itch_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/842d7d116de9edb31775b15a1c5d76b072aa4f3f7b1f956823a605ac803ba94d_Cat 3_Itch_2.png",
+          "name": "Cat 3_Itch_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Laying_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Laying_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/261ec8307288d37b85d801e27db9a1d6df63cc2f207d721ec7a3b5f0508f479b_Cat 3_Laying_1.png",
+          "name": "Cat 3_Laying_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Laying_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Laying_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/1219f12aeb27c8e01ceb47b50456c4943db1d8eea71311d7f76c49119e4f3c07_Cat 3_Laying_2.png",
+          "name": "Cat 3_Laying_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Laying_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Laying_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/a1a0f01b352fc89ad0d5b54c3427b3240a21d4fad1a199a8352bcb9d18bb4735_Cat 3_Laying_3.png",
+          "name": "Cat 3_Laying_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Laying_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Laying_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/5bd1761302b8509ae734726ff3ecbbaff1f9ad3c4c2d917b41509736b008dd06_Cat 3_Laying_4.png",
+          "name": "Cat 3_Laying_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Laying_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Laying_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/483a111c37cd05271b849d7360820292350037fb4a0837abc37e5f44b0fe2f15_Cat 3_Laying_5.png",
+          "name": "Cat 3_Laying_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Laying_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Laying_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/6b7fedca7983872ab5a90eda0728b5f2557e15355c6661cb0bfb753806e064d1_Cat 3_Laying_6.png",
+          "name": "Cat 3_Laying_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Laying_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Laying_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/3ac8c0d15366b7dcc79cb76e60580769012358c41d9ee524a7748c21bbfd9caa_Cat 3_Laying_7.png",
+          "name": "Cat 3_Laying_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Laying_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Laying_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/3ac8c0d15366b7dcc79cb76e60580769012358c41d9ee524a7748c21bbfd9caa_Cat 3_Laying_8.png",
+          "name": "Cat 3_Laying_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Licking 1_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Licking 1_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/419b0b3518da859543d17efe6feb2dac8bc47c539ab41d9e2c94621a0b24b7bd_Cat 3_Licking 1_2.png",
+          "name": "Cat 3_Licking 1_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Licking 1_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Licking 1_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/835492caae9450f4e36ba24599f5e468c894efa20f129eb57fe0330821edc0e8_Cat 3_Licking 1_3.png",
+          "name": "Cat 3_Licking 1_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Licking 1_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Licking 1_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/7c08546e728eb9598cc78265affc6401b186bc0cc34963ced8b12674ba7a91fc_Cat 3_Licking 1_4.png",
+          "name": "Cat 3_Licking 1_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Licking 1_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Licking 1_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/d4b258f268168d0eccd047bed57d3561929cecce17fcaf5f90932740e1422671_Cat 3_Licking 1_5.png",
+          "name": "Cat 3_Licking 1_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Licking 2_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Licking 2_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/60b4398e48aba47465b4ca8f40cbb686ffa85aa02423ede61dc4bf771968eee7_Cat 3_Licking 2_1.png",
+          "name": "Cat 3_Licking 2_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Licking 2_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Licking 2_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/9c5dbb658063541ebcb36bb4fd70af96ca43c65ea6420e151c5e3af4b05eb834_Cat 3_Licking 2_2.png",
+          "name": "Cat 3_Licking 2_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Licking 2_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Licking 2_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/547845584c9cc0d14bc6adecbf333333c4459342436385623f8b3d328d462b8e_Cat 3_Licking 2_3.png",
+          "name": "Cat 3_Licking 2_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Licking 2_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Licking 2_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/2d39f0ee0977a58d8137a5213e4539158a2fffda9830b0299ba12dcefc1f3f23_Cat 3_Licking 2_4.png",
+          "name": "Cat 3_Licking 2_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Licking 2_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Licking 2_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/60b4398e48aba47465b4ca8f40cbb686ffa85aa02423ede61dc4bf771968eee7_Cat 3_Licking 2_5.png",
+          "name": "Cat 3_Licking 2_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Meow_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Meow_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/c9761770f1ba114388b41c39f3d654cde41e61e4cd485502c1693409ebbe737e_Cat 3_Meow_1.png",
+          "name": "Cat 3_Meow_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Meow_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Meow_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/3e11ea4bce7166d0d843dae3ff7cf2c5c005ffab6dcd13e1c0a11a9341337a29_Cat 3_Meow_2.png",
+          "name": "Cat 3_Meow_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Meow_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Meow_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/7b7b4865f3f7d84ba74703de99925ee12cd0ecd3ad9b150a211a1c560c67906c_Cat 3_Meow_3.png",
+          "name": "Cat 3_Meow_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Meow_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Meow_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/40f3967337ca1afc9f4b1890d2aaf19e06b793c8435c61ff328c4440f6874fc1_Cat 3_Meow_4.png",
+          "name": "Cat 3_Meow_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Run_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/175efc72b6b330392605725a19831028d3066d7077bc7b1a328bfd0aefe0a2b7_Cat 3_Run_1.png",
+          "name": "Cat 3_Run_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Run_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/81314843f96f6d464d5fd9595d39c3dd7ec7576608b0905e61bfc4339ebaff7f_Cat 3_Run_2.png",
+          "name": "Cat 3_Run_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Run_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/6c25c02eb06a26f6a0f05b7b849c4af984a476d1025aeebd6262d8dcfe2496ed_Cat 3_Run_3.png",
+          "name": "Cat 3_Run_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Run_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/b825a230ec6cd3cd6882ca04dc65957d40a18d28d969cd27187847feaa463342_Cat 3_Run_4.png",
+          "name": "Cat 3_Run_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Run_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Run_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/1029bc20a4dfd1caa532963812106e30d6d5485d2d669178fd873b3ffc3009d5_Cat 3_Run_5.png",
+          "name": "Cat 3_Run_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Run_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Run_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/b13906402c8526635389ed8f90f72fccc8323ce1e93f4e2df5301e7055e8d7d6_Cat 3_Run_6.png",
+          "name": "Cat 3_Run_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Run_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Run_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/0b12da647eb5218cf9a4c2a2323b1e5568cafe29b43c2d3f8d47a15d51a4e9db_Cat 3_Run_7.png",
+          "name": "Cat 3_Run_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Run_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Run_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/85d459e5a7d06cf84103b72dd83a6f621d7594016ada4e618f2753d343222dc5_Cat 3_Run_8.png",
+          "name": "Cat 3_Run_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Sitting.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Sitting.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/3323be5302cf97c9c4759940ab6dc6035493f2971cd4a0c775923734a3065282_Cat 3_Sitting.png",
+          "name": "Cat 3_Sitting.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Sleeping1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Sleeping1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/1cea54a3634ea43058e3fc8e9470170059fc1681b10334626462e5c10ac1a952_Cat 3_Sleeping1.png",
+          "name": "Cat 3_Sleeping1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Sleeping2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Sleeping2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/066f89f2801d88139ad880167cc7eacba929d838f6f15da58d39fa824f0d2075_Cat 3_Sleeping2.png",
+          "name": "Cat 3_Sleeping2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Stretching_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Stretching_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/233283520ece8379e8de52a500113030988af18b53c13d253dbdbdbdc08119af_Cat 3_Stretching_1.png",
+          "name": "Cat 3_Stretching_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Stretching_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Stretching_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/83b3bfcd98901480590b00a86f1d271fe64fdb58eb053458671baff821f81c1e_Cat 3_Stretching_10.png",
+          "name": "Cat 3_Stretching_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Stretching_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Stretching_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/83b3bfcd98901480590b00a86f1d271fe64fdb58eb053458671baff821f81c1e_Cat 3_Stretching_11.png",
+          "name": "Cat 3_Stretching_11.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Stretching_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Stretching_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/de277b6e55ac3605e3a748019ccab3511dddb927c34d739391228530e6e32af3_Cat 3_Stretching_12.png",
+          "name": "Cat 3_Stretching_12.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Stretching_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Stretching_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/eae44bc0a0f48a8d4baf003d03ee8d1f27a8c5d29580bc114059dcd8694076b6_Cat 3_Stretching_13.png",
+          "name": "Cat 3_Stretching_13.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Stretching_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Stretching_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/1c8347d1b56158eff85948f2a83f9e63a42520d336ab553559e9d106c6a0f169_Cat 3_Stretching_2.png",
+          "name": "Cat 3_Stretching_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Stretching_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Stretching_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/41f5594ec170804e21d096ce4da30090d07667c56b6bb9a9162f1f3ece6319d5_Cat 3_Stretching_3.png",
+          "name": "Cat 3_Stretching_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Stretching_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Stretching_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/08d38dbf1f833edbf9f18d5edd82e540b895cf99dd4f2c2304e5b94602c7f3e5_Cat 3_Stretching_4.png",
+          "name": "Cat 3_Stretching_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Stretching_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Stretching_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/4410dad1362b051d00ba06231efaf6555ee14e3ae779604fcb6b53d726348488_Cat 3_Stretching_5.png",
+          "name": "Cat 3_Stretching_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Stretching_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Stretching_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/3cccffa8e4129c00d9f2c0f88ccdfa7dd04762e23997c6e556bc119a239d97ad_Cat 3_Stretching_6.png",
+          "name": "Cat 3_Stretching_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Stretching_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Stretching_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/479450d250094ea4230eb10d14ecb7b0461c620587825630ac444606d5cbcfda_Cat 3_Stretching_7.png",
+          "name": "Cat 3_Stretching_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Stretching_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Stretching_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/479450d250094ea4230eb10d14ecb7b0461c620587825630ac444606d5cbcfda_Cat 3_Stretching_8.png",
+          "name": "Cat 3_Stretching_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Stretching_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Stretching_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/1af335975de64cd879d54efd77ec2a94604be7d8931adeb115a34ea64cf06d7c_Cat 3_Stretching_9.png",
+          "name": "Cat 3_Stretching_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Walk_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Walk_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/fe99011180b88c84838aae47c1a4d09fa6d55305bf621d592a14023c64a5eaef_Cat 3_Walk_1.png",
+          "name": "Cat 3_Walk_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Walk_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Walk_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/4f05d45c26f9a8a27335819130ab8fa1d08c2cded4bea8dd61bd1c117c546e85_Cat 3_Walk_2.png",
+          "name": "Cat 3_Walk_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Walk_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Walk_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/c1d94b362908b1c2503ad9c8dc271b90bcc1189e94dbf182494d8fa73c44db0a_Cat 3_Walk_3.png",
+          "name": "Cat 3_Walk_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Walk_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Walk_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/f0f7af2c8d30a9d2c8d705c20757f2ac3e55fae4306aba767b5c50c2a7113f53_Cat 3_Walk_4.png",
+          "name": "Cat 3_Walk_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Walk_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Walk_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/3fabd1889ad815599afeab706ff07a44b463e3c5caaa8425a9d682970070098f_Cat 3_Walk_5.png",
+          "name": "Cat 3_Walk_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Walk_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Walk_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/e64bfa0a64cb6f4000cd15f5973bd70e27467c8d73505badbae48f40318c7c7d_Cat 3_Walk_6.png",
+          "name": "Cat 3_Walk_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Walk_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Walk_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/b936d28b43abf99ad014a82769f38de0839416d1f8f4b43749fa15a74b0af7a0_Cat 3_Walk_7.png",
+          "name": "Cat 3_Walk_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cat 3_Walk_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat 3_Walk_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pet Cats/Cat 3/9aad6c47caa48e06e587cf6e394abc2617ac947ee768ac7ae297a094e405ce90_Cat 3_Walk_8.png",
+          "name": "Cat 3_Walk_8.png"
+        }
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "Transition",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter",
+          "Timer": 1,
+          "Color": "255;255;255",
+          "Type": "",
+          "Direction": "",
+          "MaxOpacity": 255
+        }
+      ],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "fillColor": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "outlineColor": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none"
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 16,
+      "height": 48,
+      "leftMargin": 16,
+      "name": "TextBorder",
+      "rightMargin": 16,
+      "texture": "Border.png",
+      "tiled": true,
+      "topMargin": 16,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 48,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Transition"
+      },
+      {
+        "objectName": "TextBorder"
+      }
+    ]
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/overworld"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/battle"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritemultitouchjoystick"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/health"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flashtransitionpainter"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/shakeobject"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotyping"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}

@@ -280,11 +280,12 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "Creature_Enemy",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -369,16 +370,17 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "0f612eed16c7647388f28774e5a3942f10b728e2b81fd173e327957f4efe9ec4_Generic Character 2_Down_1",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Creature_Player.png",
+                  "image": "e301b1a9f3168f14a63f647af4857c48deb788d2499ce724eeccdf8d105b88ec_Generic Character 3_Down_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -545,7 +547,7 @@
         }
       ],
       "content": {
-        "text": "The battle begins.",
+        "text": "The \"Karen\" battle begins.",
         "opacity": 255,
         "scale": 2,
         "fontSize": 20,
@@ -720,10 +722,10 @@
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Attack",
+          "string": "Tell policy",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 20,
+          "characterSize": 15,
           "color": {
             "b": 255,
             "g": 255,
@@ -784,10 +786,10 @@
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Skill",
+          "string": "Show website",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 20,
+          "characterSize": 15,
           "color": {
             "b": 255,
             "g": 255,
@@ -848,10 +850,10 @@
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Run",
+          "string": "Call Manager",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 20,
+          "characterSize": 15,
           "color": {
             "b": 255,
             "g": 255,
@@ -1747,6 +1749,10 @@
   ],
   "behaviorsSharedData": [
     {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
       "name": "BitmapText_AutoTyping",
       "type": "AutoTyping::BitmapText_AutoTyping"
     },
@@ -1789,6 +1795,10 @@
     {
       "name": "ShakeObject_PositionAngleScale",
       "type": "ShakeObject::ShakeObject_PositionAngleScale"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "Tween",
